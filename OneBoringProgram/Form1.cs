@@ -205,11 +205,19 @@ namespace OneBoringProgram
                     }
                     info1.Items.Add(people);
                     lpeople.Visible = true;
-                    tage.Enabled = true;
+
+                    bage.Visible = true;
+                    tage.Visible = true;
+                    bpeople.Enabled = false;
                     tpeople.Enabled = false;
                     bpeople.Enabled = false;
+                    agelabel1.Visible = true;
 
-                   break;
+                    rpeople.Text = people.ToString();
+                    rpeople.Visible = true;
+                    rpeoplelabel.Visible = true;
+
+                    break;
 
             }
 
